@@ -1,0 +1,29 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+frontend/node_modules/
+frontend/dist/
+
+# Local runtime data
+reflow-docs/
+reflow-media/
+reflow-outputs/
+
+# Conversation history and local test requests
+conversation-*.txt
+request*.json
+
+# Python test cache
+.pytest_cache/
+
+# Local editor configuration
+.vscode/
+
+# Environment files
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+.DS_Store

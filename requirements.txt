@@ -1,0 +1,10 @@
+# Dépendances de ReFlow (backend FastAPI de l'agent IA).
+# Installation : pip install -r requirements.txt
+fastapi
+uvicorn
+openai
+python-dotenv
+# Parseur officiel SAM 3.1 (licence SAM de Meta, épinglé sur l'API vérifiée).
+meta-sam-parser==0.1.0
+# Extraction PDF pour Document Intelligence (pur Python, compatible 3.14).
+pypdf==6.21.4
